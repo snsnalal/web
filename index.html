@@ -27,28 +27,21 @@
 </head>
 <body>
     <header>
-        <div class="h_div1">
-            <h1 class="w3-xxlarge">Son Seongho Home</h1>
-        </div>
         <div class="h_div2">
             <audio src="media/music2.mp3" controls>
                 지원하지 않는 브라우저입니다.
                 </audio>
         </div>
-         
     </header>
     <nav>
         <ul class="nav_ul">
-            <li class="nav_ul_li w3-text-indigo"><a href="#">About</a></li>
-            <li class="nav_ul_li w3-text-indigo"><a href="#Profile">Profile</a></li>
-            <li class="nav_ul_li w3-text-indigo"><a href="#Portfolio">Portfolio</a></li>
+            <li class="nav_ul_li w3-text-indigo"><h1 class="w3-xxlarge">Son Seongho Home</h1></li>
         </ul>
     </nav>
     <section>
         <article class = "main">
         <div id="Profile">
-            <h2 style="font-size: x-large; color: indianred;">북극곰</h2>
-            <iframe width="488" height="252" src="https://www.youtube.com/embed/6RQ-bBdASvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
             <hr>
 
             <h2>My Profile</h2>
@@ -84,7 +77,7 @@
                     <th>URL</th>
                     <th>키워드</th>
                 </tr>
-                <tr>
+                <tr onclick="view.location.href='test01.html'" style="cursor:pointer;">
                     <td>블루투스 RC카</td>
                     <td>
                         <a href="https://github.com/snsnalal/BluetoothRC" target="_blank">Github 주소</a></td>
@@ -99,7 +92,7 @@
                     </td>
                     <td>APP, TCP/IP 통신</td>
                 </tr>
-                <tr>
+                <tr onclick="view.location.href='test02.html'" style="cursor:pointer;">
                     <td>스마트장애인주차구역단속시스템</td>
                     <td>
                         <a href="https://github.com/snsnalal/Parking-system-project" target="_blank">Github 주소</a>                                       
@@ -125,15 +118,14 @@
                 <button class="w3-button w3-hover-black w3-black w3-xlarge"><a href="https://www.instagram.com/tay_son_" target="_blank"><i class="fab fa-instagram"></i></a></button>
             </div>
             <div id="link">
-                <h2 style="font-size: x-large; font-family: 맑은 고딕, Arial, Helvetica, sans-serif; color: indianred;"> ABOUT </h2>
+                <h2 style="font-size: x-large; font-family: 맑은 고딕, Arial, Helvetica, sans-serif; color: indianred;"> Information </h2>
                 <iframe scr="start.html" width="320" height="776" name = "view">이 브라우저는 iframe을 지원하지 않습니다.</iframe>
             </div>
         </aside>
     </section>
-    
+    <br>
     <footer>
-        <div id="Copyright">주소와 저작권</div>
-        <div id="SNS">트위터, 인스타그램, 페이스북 주소</div>
+        <div id="Copyright">@Made by Seongho</div>
     </footer>
 </body>
 </html>
