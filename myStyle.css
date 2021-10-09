@@ -1,0 +1,70 @@
+<style>
+        h1
+        {
+            color:red;
+            background-color: rgba(0, 170, 161, 0.5);
+            font-family:"맑은 고딕", Arial, Helvetica, sans-serif;
+        }   
+        /*
+        medium = 16px = 1em = 100% = 12pt(인쇄용)
+        */
+        header h1
+        {
+            font-size: x-large;
+        }
+        .h_div1
+        {
+            display: inline-block;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .h_div2
+        {
+            vertical-align: center;
+            display: inline-block;
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+        a
+        {
+            text-decoration: none;
+        }
+        ul
+        {
+            list-style-type: none;
+        }
+        .nav_ul
+        {
+            text-align: center;
+            border-top: 2px solid indianred;
+            border-bottom: 2px solid indianred;
+            padding: 15px 0px
+        }
+        .nav_ul_li
+        {
+            display: inline;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            padding: 15px 25px;
+        }
+        .nav_ul_li:hover
+        {
+            background-color: indianred;
+        }
+        .nav_ul a:hover
+        {
+            color: white;
+        }
+        #id_pro
+        {
+            position:fixed;
+            right:0;
+            z-index: 3;
+        }
+        #id_pro2
+        {
+            position:fixed;
+            right:0;
+            top: 230px;
+        }
+</style>
