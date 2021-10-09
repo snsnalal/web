@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Seongho's Site</title>
+    <link rel="stylesheet" href="myStyle.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    <style>
+        section
+        {
+            display: flex;
+        }
+        .main
+        {
+            flex: 4;
+        }
+        .right
+        {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="h_div1">
+            <h1 class="w3-xxlarge">Son Seongho Home</h1>
+        </div>
+        <div class="h_div2">
+            <audio src="media/music2.mp3" controls>
+                지원하지 않는 브라우저입니다.
+                </audio>
+        </div>
+         
+    </header>
+    <nav>
+        <ul class="nav_ul">
+            <li class="nav_ul_li w3-text-indigo"><a href="#">About</a></li>
+            <li class="nav_ul_li w3-text-indigo"><a href="#Profile">Profile</a></li>
+            <li class="nav_ul_li w3-text-indigo"><a href="#Portfolio">Portfolio</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article class = "main">
+        <div id="Profile">
+            <h2 style="font-size: x-large; color: indianred;">북극곰</h2>
+            <iframe width="488" height="252" src="https://www.youtube.com/embed/6RQ-bBdASvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <hr>
+
+            <h2>My Profile</h2>
+            <table class="w3-table-all w3-hoverable">
+                <tr class="w3-indigo">
+                    <th>년도</th>
+                    <th>내용</th>
+                    <th>비고</th>
+                </tr>
+                <tr onclick="view.location.href='test.html'" style="cursor:pointer;">
+                    <td>~현재</td>
+                    <td>동의대학교 컴퓨터공학과</td>
+                    <td>재학</td>
+                </tr>     
+                <tr>
+                    <td>2017~2018</td>
+                    <td>육군 제21사단</td>
+                    <td>병장 만기전역</td>
+                </tr>
+                <tr>
+                    <td>2016</td>
+                    <td>창원남산고등학교</td>
+                    <td>졸업</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div id="Portfolio">
+            <h2>My Portfolio</h2>
+            <table class="w3-table-all w3-hoverable">
+                <tr class="w3-light-green">
+                    <th>내용</th>
+                    <th>URL</th>
+                    <th>키워드</th>
+                </tr>
+                <tr>
+                    <td>블루투스 RC카</td>
+                    <td>
+                        <a href="https://github.com/snsnalal/BluetoothRC" target="_blank">Github 주소</a></td>
+                    <td>블루투스, 아두이노</td>
+                </tr>     
+                <tr>
+                    <td>TCP/IP 소켓통신을 이용한 APP</td>
+                    <td>
+                        <a href="https://github.com/snsnalal/newnew" target="_blank">클라이언트 Github 주소</a>                       
+                        <br>
+                        <a href="https://github.com/snsnalal/WindowsFormsApp6" target="_blank">서버 Github 주소</a>                        
+                    </td>
+                    <td>APP, TCP/IP 통신</td>
+                </tr>
+                <tr>
+                    <td>스마트장애인주차구역단속시스템</td>
+                    <td>
+                        <a href="https://github.com/snsnalal/Parking-system-project" target="_blank">Github 주소</a>                                       
+                    </td>
+                    <td>TCP/IP 통신, 딥러닝, IOT</td>
+                </tr>
+            </table>
+        </div>
+        </article>
+        <aside class="right">
+            <div id = "id_pro" class="w3-dropdown-hover w3-right">
+                <button class="w3-button w3-hover-black w3-black w3-xlarge"><i class="far fa-address-book"></i></button>
+                <div class="w3-dropdown-content w3-card-4 w3-border" style="right: 0">
+                  <a><img src = "images/1.png" alt = "나의 사진" height="150" width="120"/></a><br>
+                  <a>이름 : 손성호</a><br>
+                  <a><i style='font-size:20px' class="fas fa-mobile-alt"></i>010-6481-0988</a><br>
+                  <a><i style='font-size:20px' class="far fa-envelope"></i>jujujo79@gmail. com</a><br>
+                  <a><i style='font-size:20px' class="fas fa-map-marker-alt"></i>창원시 성산구 가음정로 59</a>
+                </div>
+            </div>
+              <div class="w3-clear"></div>
+            <div id = "id_pro2">
+                <button class="w3-button w3-hover-black w3-black w3-xlarge"><a href="https://www.instagram.com/tay_son_" target="_blank"><i class="fab fa-instagram"></i></a></button>
+            </div>
+            <div id="link">
+                <h2 style="font-size: x-large; font-family: 맑은 고딕, Arial, Helvetica, sans-serif; color: indianred;"> ABOUT </h2>
+                <iframe scr="start.html" width="320" height="776" name = "view">이 브라우저는 iframe을 지원하지 않습니다.</iframe>
+            </div>
+        </aside>
+    </section>
+    
+    <footer>
+        <div id="Copyright">주소와 저작권</div>
+        <div id="SNS">트위터, 인스타그램, 페이스북 주소</div>
+    </footer>
+</body>
+</html>

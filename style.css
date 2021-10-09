@@ -1,0 +1,23 @@
+.container
+{
+    background: gold;
+    left: 50px;
+    top: 100px;
+    position: relative;
+}
+div
+{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    background: red;
+    display: block;
+}
+.box
+{
+    background: pink;
+    top: 30px;
+    left: 50px;
+    /* 전체윈도우 기준 - fixed*/
+    position: sticky;
+}
